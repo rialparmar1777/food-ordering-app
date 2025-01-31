@@ -8,7 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#f13a01',
+        primary: '#D32F2F', // Rich Pizza Sauce Red
+        secondary: '#F57C00', // Cheesy Orange
+        accent: '#FFEB3B', // Golden Crust Yellow
+        dark: '#4E342E', // Oven-Baked Brown
+        light: '#FFF3E0', // Warm Dough White
       },
     },
   },
