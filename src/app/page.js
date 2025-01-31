@@ -11,11 +11,23 @@ export default function Home() {
     <Header />
     <Hero />
     <HomeMenu />
-    <section>
-      <SectionHeaders 
+    <section className="text-center my-16">
+      <SectionHeaders
       subHeader={'Our Story'}
       mainHeader={'About Us'}
       />
+      <div className="text-gray-500 max-w-md mx-auto mt-5 flex-col gap-4">
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minima odit recusandae. Illum ipsa non repudiandae? Eum ipsam iste quos suscipit tempora? Aperiam esse fugiat inventore laboriosam officiis quam rem!
+      </p>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minima odit recusandae. Illum ipsa non repudiandae? Eum ipsam iste quos suscipit tempora? Aperiam esse fugiat inventore laboriosam officiis quam rem!
+      </p>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minima odit recusandae. Illum ipsa non repudiandae? Eum ipsam iste quos suscipit tempora? Aperiam esse fugiat inventore laboriosam officiis quam rem!
+      </p>
+      </div>
+      
     </section>
     </>
   )
