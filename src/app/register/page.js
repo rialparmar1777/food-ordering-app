@@ -1,7 +1,13 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function RegisterPage() {
+
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
     return (
         <section className="mt-8 flex justify-center items-center min-h-screen bg-gray-100">
             <div className="w-full max-w-md p-8 bg-white shadow-lg rounded-2xl">
