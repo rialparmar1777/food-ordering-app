@@ -4,7 +4,7 @@ import Right from "../icons/Right";
 
 export default function Hero() {
   return (
-    <section className="hero flex flex-col lg:flex-row items-center justify-between px-6 lg:px-20 py-16 bg-gradient-to-r from-yellow-100 to-orange-100">
+    <section className="hero flex flex-col lg:flex-row items-center justify-between mt-4 px-6 lg:px-20 py-16 bg-gradient-to-r from-yellow-100 to-orange-100">
       <div className="max-w-lg text-center lg:text-left">
         <h1 className="text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900">
           Everything<br /> is better<br /> with a <span className="text-primary">Pizza</span>
