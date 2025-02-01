@@ -8,7 +8,6 @@ import SectionHeaders from "@/components/layout/SectionHeaders";
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <HomeMenu />
       
@@ -38,10 +37,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="border-t border-gray-300 p-8 text-center text-gray-600 mt-16 bg-gray-50">
-        <p className="text-sm">&copy; 2025 All rights reserved</p>
-        <p className="text-sm">Powered by <span className="font-semibold text-yellow-600">Rial</span></p>
-      </footer>
+      
     </>
   );
 }
