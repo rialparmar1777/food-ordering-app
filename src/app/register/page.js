@@ -7,6 +7,14 @@ export default function RegisterPage() {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    function handleFormSubmit(ev) {
+        ev.preventDefault();
+        fetch('/api/register', {
+            method: 'POST',
+            body: JSON.stringify({email, password}),
+            headers: {'Content-Type': 'application/json'},
+        });
+    }
 
     return (
         <section className="mt-8 flex justify-center items-center min-h-screen bg-gray-100">
@@ -14,15 +22,17 @@ export default function RegisterPage() {
                 <h1 className="text-center text-black text-4xl font-bold mb-6">
                     Register
                 </h1>
-                <form className="space-y-4">
+                <form className="space-y-4" onSubmit={handleFormSubmit}>
                     <input 
                         type="email" 
-                        placeholder="Email" 
+                        placeholder="Email"
+                        value={email} onChange={ev => setEmail(ev.target.value)}
                         className="border border-gray-300 rounded-lg p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                     <input 
                         type="password" 
                         placeholder="Password" 
+                        value={password} onChange={ev => setPassword(ev.target.value)}
                         className="border border-gray-300 rounded-lg p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                     <button 
