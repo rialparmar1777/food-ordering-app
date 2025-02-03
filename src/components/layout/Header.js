@@ -8,7 +8,7 @@ export default function Header() {
       <Link className="text-primary font-extrabold text-3xl tracking-wide" href={'/'}>
         ST PIZZA
       </Link>
-        <Link href={'/'} className="hover:text-primary transition-colors">Home</Link>
+        <Link href={'/ '} className="hover:text-primary transition-colors">Home</Link>
         <Link href={""} className="hover:text-primary transition-colors">Menu</Link>
         <Link href={""} className="hover:text-primary transition-colors">About</Link>
         <Link href={""} className="hover:text-primary transition-colors">Contact</Link>
