@@ -2,9 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-section.hero {
-    @apply grid;
-    grid-template-columns: .4fr .6fr;
+@layer components {
+    section.hero {
+        @apply grid;
+        grid-template-columns: .4fr .6fr;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    input[type="text"] {
+        @apply block w-full my-4 rounded-xl;
+        @apply border p-2 border-gray-600 bg-gray-100;
+    }
 }
 
-
+button{
+    @apply flex items-center gap-3 py-3 px-6 text-gray-700 border-2 border-gray-700 rounded-full font-semibold hover:bg-gray-700 hover:text-white transition-all;
+}
+button[type="submit"], button.submit{
+    
+}
