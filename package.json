@@ -12,6 +12,7 @@
     "mongoose": "^8.9.6",
     "next": "15.1.6",
     "next-auth": "^4.24.11",
+    "nodemailer": "^6.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -23,5 +24,9 @@
     "eslint-config-next": "15.1.6",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "description": "<<<<<<< HEAD\r # food-ordering-app\r Full Stack Food Ordering App using Next js, Tailwind and MongoDB\r =======\r This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
